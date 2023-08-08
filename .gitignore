@@ -21,7 +21,10 @@ gits/
 media/
 react_css/
 django/staticfiles/
+
 #react/
+react/dist/
+
 # staticfiles/
 
 # logs
