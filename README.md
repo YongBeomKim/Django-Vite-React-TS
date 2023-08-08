@@ -1,4 +1,3 @@
-
 <p align="center">
   <p align="center">
     <a href="https://www.youtube.com/channel/UC7m0x5NHiHz4VemPFVaS98A" target="_blank">
@@ -11,8 +10,9 @@
 </p>
 
 # Django with React
-
 This repository is the final code for the Django with Reactjs using Vite.
+
+[My Blog Post : Django React with Vite.js boiler plate](https://yongbeomkim.github.io/01django/2023-08-01-django-vite.html)
 
 ---
 
@@ -22,30 +22,14 @@ Get Started with the Tutorial
 ```
 $ mkdir ~/Dev/djangoreact
 $ cd ~/Dev/djangoreact
-$ git clone https://github.com/codingforinnovations/Django-React .
-$ python3.9 -m virtualenv .
-$ source bin/activate
-(djangoreact) $ pip install -r requirements.txt
-```
-
-Run Django Server
-```
-(djangoreact) $ python manage.py runserver
-```
-
-Install React JS Libraries
-```
-(djangoreact) $ npm i 
-```
-
-React JS Dev Server
-```
-(djangoreact) $ npm run dev
-```
-
-React JS Build
-```
-(djangoreact) $ npm run build
+$ git clone https://github.com/YongBeomKim/Django-Vite-React-TS.git .
+$ python3.11 -m venv .venv
+$ cd .venv
+$ . bin/activate
+(djangoreact) $ cd ..
+(djangoreact) $ pip install Django whitenoise
+(djangoreact) $ cd react
+(djangoreact) $ yarn install
 ```
 
 <div align="center">
