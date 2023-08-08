@@ -20,16 +20,17 @@ This repository is the final code for the Django with Reactjs using Vite.
 
 Get Started with the Tutorial
 ```
-$ mkdir ~/Dev/djangoreact
-$ cd ~/Dev/djangoreact
-$ git clone https://github.com/YongBeomKim/Django-Vite-React-TS.git .
+$ git clone https://github.com/YongBeomKim/Django-Vite-React-TS.git
+$ cd Django-Vite-React-TS
 $ python3.11 -m venv .venv
 $ cd .venv
 $ . bin/activate
-(djangoreact) $ cd ..
-(djangoreact) $ pip install Django whitenoise
-(djangoreact) $ cd react
-(djangoreact) $ yarn install
+(.venv) $ cd ../react
+(.venv) $ pip install Django whitenoise
+(.venv) $ yarn install
+(.venv) $ cd ../django
+(.venv) $ source build.sh
+(.venv) $ ./manage.py runserver
 ```
 
 <div align="center">
