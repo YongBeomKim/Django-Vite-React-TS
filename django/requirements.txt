@@ -1,0 +1,4 @@
+Django>=4.2.4
+ipython>=8.14.0
+uvicorn>=0.23.2
+whitenoise>=6.5.0
