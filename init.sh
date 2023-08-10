@@ -81,7 +81,7 @@ yarn install
 # yarn add -D styled-components @types/styled-components
 # yarn add -D react-cookie
 # yarn add -D tailwindcss postcss autoprefixer
-# npx tailwindcss init -p
+# npx tailwindcss init
 cd ..
 # yarn install
 # cd react

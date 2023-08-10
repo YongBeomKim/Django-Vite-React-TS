@@ -21,6 +21,7 @@ gits/
 media/
 react_css/
 django/staticfiles/
+db.ini
 
 #react/
 react/dist/

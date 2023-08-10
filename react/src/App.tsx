@@ -1,5 +1,4 @@
 import React, { useState, Suspense } from 'react'
-import './App.css'
 const Login = React.lazy(() => import('./Components/Login'));
 
 const reactLogo = "react.svg"
@@ -23,7 +22,7 @@ function App() {
               <img src={reactLogoPath} className="logo react" alt="React logo" />
             </a>
             <h1>Vite + React</h1>
-            <div className="card">
+            <div className="bg-red-500">
               <button onClick={() => setCount((count) => count + 1)}>
                 count is {count}
               </button>
