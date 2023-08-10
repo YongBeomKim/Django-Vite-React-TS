@@ -22,15 +22,7 @@ Get Started with the Tutorial
 ```
 $ git clone https://github.com/YongBeomKim/Django-Vite-React-TS.git
 $ cd Django-Vite-React-TS
-$ python3.11 -m venv .venv
-$ cd .venv
-$ . bin/activate
-(.venv) $ cd ../react
-(.venv) $ pip install Django whitenoise
-(.venv) $ yarn install
-(.venv) $ cd ../django
-(.venv) $ source build.sh
-(.venv) $ ./manage.py runserver
+$ source init.sh
 ```
 
 <div align="center">
