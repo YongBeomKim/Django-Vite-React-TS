@@ -128,6 +128,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
+MEDIA_URL   = '/media/'
+MEDIA_ROOT  = BASE_DIR.joinpath("../media/")
+
+# https://docs.djangoproject.com/en/4.2/howto/static-files/
 STATIC_URL = 'static/'
 
 # for development
@@ -139,6 +143,17 @@ else:
 
 # for publishment
 STATIC_ROOT = BASE_DIR.joinpath("staticfiles")
+
+# Django 4.2 Default Setting
+# https://stackoverflow.com/questions/76411302/could-not-find-config-for-static-files-in-settings-storages
+STORAGES = {
+    "default": {
+        "BACKEND": "django.core.files.storage.FileSystemStorage",
+    },
+    'staticfiles': {
+        "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+    },
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

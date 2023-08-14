@@ -9,6 +9,7 @@ export default defineConfig({
     exclude: /\.stories\.(t|j)sx?$/,
     include: '**/*.(ts|tsx)',
   })],
+  base: '/static/',
   publicDir: './public',
   build: {
     rollupOptions: {
