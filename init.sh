@@ -68,13 +68,13 @@ EOF
 # python ./pyscript.py
 rm ./pyscript.py
 source reset.sh
-source build.sh
 cd ..
 
 ## FrontEnds
 # yarn create vite react --template react-ts
 cd react
 yarn install
+yarn build
 # yarn add -D aos axios hamburger-react styled-normalize
 # yarn add -D react-helmet-async react-icons react-router-dom
 # yarn add -D @types/node @types/aos @types/react-router-dom
@@ -86,3 +86,9 @@ cd ..
 # yarn install
 # cd react
 # yarn install
+
+
+# Django Produce Build
+cd django
+source build.sh
+cd ..
