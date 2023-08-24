@@ -75,6 +75,7 @@ cd ..
 cd react
 yarn install
 yarn build
+cp ./public/editorconfig  .editorconfig   
 # yarn add -D aos axios hamburger-react styled-normalize
 # yarn add -D react-helmet-async react-icons react-router-dom
 # yarn add -D @types/node @types/aos @types/react-router-dom
