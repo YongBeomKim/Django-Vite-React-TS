@@ -11,7 +11,7 @@
     <div id="root"></div>
 
     {% if debug %}
-      <h1>Development Mode</h1>
+      {% comment %} <h1>Development Mode2</h1> {% endcomment %}
       <script type="module" src="http://localhost:5173/@vite/client"></script>
       <script type="module">
         import RefreshRuntime from 'http://localhost:5173/@react-refresh'
@@ -22,10 +22,10 @@
       </script>
       <script type="module" src="http://localhost:5173/src/main.tsx"></script>
     {% else %}
-      <h1>Production Mode</h1>
-      <script type="module" crossorigin src="{% static 'assets/js/index-ded18c60.js' %}">
+      {% comment %} <h1>Production Mode</h1> {% endcomment %}
+      <script type="module" crossorigin src="{% static 'assets/js/index-8aa1b0aa.js' %}">
       </script>
-      <link rel="stylesheet" href="{% static 'assets/css/index-179954eb.css' %}">
+      <link rel="stylesheet" href="{% static 'assets/css/index-5f1328d3.css' %}">
     {% endif %}
 
     {% block content %}

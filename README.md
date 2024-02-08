@@ -1,3 +1,7 @@
+# 간단한 테스트용 사이트 제작 템플릿 완성하기
+- HMR 이 원활하게 반영되지 않음 .. ㅋㅋㅋ
+- 
+
 <p align="center">
   <p align="center">
     <a href="https://www.youtube.com/channel/UC7m0x5NHiHz4VemPFVaS98A" target="_blank">
