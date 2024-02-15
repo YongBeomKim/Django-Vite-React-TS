@@ -1,10 +1,8 @@
-Django>=4.2.4
-ipython>=8.14.0
-uvicorn>=0.23.2
-whitenoise>=6.5.0
-django-ninja>=0.22.2
+Django>=5.0.2
+ipython>=8.21.0
+uvicorn>=0.27.1
+whitenoise>=6.6.0
+orjson>=3.9.14
+django-ninja>=1.1.0
 djangorestframework>=3.14.0
-djangorestframework-simplejwt>=5.2.2
-ipython>=8.14.0
-orjson>=3.9.4
-whitenoise>=6.5.0
+djangorestframework-simplejwt>=5.3.1
