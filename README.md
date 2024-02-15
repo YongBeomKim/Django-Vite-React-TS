@@ -5,8 +5,8 @@ This repository is the final code for the Django with Reactjs using Vite.
 ---
 
 ## Get Started
+**The engine "node" Expected version "^18.0.0 || >=20.0.0"**
 
-Get Started with the Tutorial
 ```
 $ git clone https://github.com/YongBeomKim/Django-Vite-React-TS.git
 $ cd Django-Vite-React-TS
