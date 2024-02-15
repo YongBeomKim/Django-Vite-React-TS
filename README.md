@@ -13,7 +13,3 @@ $ cd Django-Vite-React-TS
 $ source init.sh
 ```
 
-<div align="center">
-<i>Other places you can find us:</i><br>
-<a href="https://www.youtube.com/channel/UC7m0x5NHiHz4VemPFVaS98A" target="_blank"><img src="https://img.shields.io/badge/YouTube-%23E4405F.svg?&style=flat-square&logo=youtube&logoColor=white" alt="YouTube"></a>
-</div>
