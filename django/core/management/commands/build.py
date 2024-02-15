@@ -1,8 +1,6 @@
 import os
 import re
-from django.core.management.base import (
-    BaseCommand, CommandParser
-)
+from django.core.management import BaseCommand
 
 # https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/
 class Command(BaseCommand):
@@ -12,7 +10,7 @@ class Command(BaseCommand):
     file_django = './core/templates/base.html'
     file_build  = './staticfiles/index.html'
 
-    def add_arguments(self, parser: CommandParser) -> None:
+    def add_arguments(self, parser) -> None:
         return super().add_arguments(parser)
 
     def handle(self, *args, **options):
