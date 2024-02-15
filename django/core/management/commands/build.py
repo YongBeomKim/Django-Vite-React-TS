@@ -4,7 +4,7 @@ from django.core.management.base import (
     BaseCommand, CommandParser
 )
 
-# https://docs.djangoproject.com/en/4.2/howto/custom-management-commands/
+# https://docs.djangoproject.com/en/5.0/howto/custom-management-commands/
 class Command(BaseCommand):
 
     r"""React Build & Django Template Auto Edit"""
